@@ -1,0 +1,35 @@
+{
+	"name": "temptrax",
+	"version": "1.0.0",
+	"description": "Generate entries with expiration date",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JMax45/temptrax.git"
+	},
+	"keywords": [
+		"Postgresql"
+	],
+	"author": "JMax45",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JMax45/temptrax/issues"
+	},
+	"homepage": "https://github.com/JMax45/temptrax#readme",
+	"dependencies": {
+		"pg": "^8.7.1",
+		"pg-mem": "^1.9.17"
+	},
+	"devDependencies": {
+		"@types/pg": "^8.6.1",
+		"typescript": "^4.4.2"
+	},
+	"files": [
+		"lib/**/*"
+	]
+}
