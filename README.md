@@ -20,7 +20,7 @@ Built for [Protonfile](https://www.jz-software.com/web/protonfile/)
 Install the package with npm
 
 ```sh
-	npm install temptrax
+npm install temptrax
 ```
 
 <!-- USAGE EXAMPLES -->
